@@ -1,0 +1,23 @@
+{ 
+"docentes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Cerez",
+      "usuario": "Ju.Cerez",
+      "tipoUsusario": "docente",
+      "email": "Ju.Cerez@profesor.cl",
+      "password": "maipu"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Ju.Cerez",
+      "password": "maipu",
+      "role": "usuario",
+      "isactive": true
+    }
+    
+  ]
+}

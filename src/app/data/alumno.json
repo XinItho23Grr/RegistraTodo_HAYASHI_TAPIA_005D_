@@ -1,0 +1,40 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Raul",
+      "apellido": "Raza",
+      "usuario": "Ra.Raza",
+      "tipoUsusario": "alumno",
+      "carrera": "Mecanica",
+      "email": "Ra.Raza@duocuc.cl",
+      "password": "duoc"
+    },
+    {
+      "id": 2,
+      "nombre": "Elva",
+      "apellido": "Surero",
+      "usuario": "El.Surero",
+      "tipoUsusario": "alumno",
+      "carrera": "Informatica",
+      "email": "El.Surero@duocuc.cl",
+      "password": "maipu"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Ra.Raza",
+      "password": "duoc",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "usuario": "El.Surero",
+      "password": "maipu",
+      "role": "usuario",
+      "isactive": true
+    }
+  ]
+}

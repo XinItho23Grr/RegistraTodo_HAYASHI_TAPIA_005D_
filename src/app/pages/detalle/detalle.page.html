@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="success">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ usuario.nombre }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-subtitle>ID #{{ usuario.id }}</ion-card-subtitle>
+    <ion-card-title>Nombre: {{ usuario.nombre }}</ion-card-title>
+    <ion-card-title>Apellido: {{ usuario.apellido }}</ion-card-title>
+    <span>Username: {{ usuario.username }}</span>
+    <span>tipoUsuario: {{ usuario.tipousuario }}</span>
+    <span>Carrera: {{ usuario.carrera }}</span>
+    <span>Email: {{ usuario.email }}</span>
+    <span>Password: {{ usuario.password }}</span>
+    <ion-button [routerLink]="['/actualizar', usuario.id]" color="warning">Actualizar</ion-button>
+    <ion-button [routerLink]="['/eliminar', usuario.id]" color="danger">Eliminar</ion-button>
+  </ion-card>
+</ion-content>
