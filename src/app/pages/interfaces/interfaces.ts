@@ -34,3 +34,26 @@ export interface Users extends IUser {
 export interface SimpleUsers extends IUser {
   role: string;
 }
+
+export interface RespuestaEncabezados{
+  status: string;
+  totalResult: number;
+  articles: Article[];
+
+}
+
+export interface Article {
+  source: source;
+  author: String;
+  title: String;
+  descripcion: string;
+  url: string;
+  urlToImage: string;
+  publisheAt: string;
+  content?: string;
+}
+
+export interface source {
+  id?: string;
+  name: string;
+}

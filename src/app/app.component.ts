@@ -27,6 +27,11 @@ export class AppComponent {
       redirecTo: '/info',
     },
     {
+      name: 'Escanear QR',
+      icon: 'scan',
+      redirecTo: '/qr',
+    },
+    {
       name: 'Detalle',
       icon: 'book-outline',
       redirecTo: '/detalle',

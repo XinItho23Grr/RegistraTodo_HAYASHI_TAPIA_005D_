@@ -21,6 +21,47 @@
       "password": "maipu"
     }
   ],
+  "docentes": [
+    {
+      "id": 1,
+      "nombre": "Raul",
+      "apellido": "paz",
+      "usuario": "Ra.paz",
+      "tipoUsusario": "docente",
+      "email": "Ra.Raza@profesor.cl",
+      "password": "duoc"
+    },
+    {
+      "id": 2,
+      "nombre": "Elva",
+      "apellido": "kozo",
+      "usuario": "El.kozo",
+      "tipoUsusario": "docente",
+      "email": "El.Surero@profesor.cl",
+      "password": "maipu"
+    },
+    {
+      "id": 3,
+      "nombre": "hito",
+      "apellido": "hayashi",
+      "username": "",
+      "tipousuario": "Docente",
+      "email": "hi.hayashi@profesor.cl",
+      "password": "123456",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "nombre": "jorge",
+      "apellido": "jett",
+      "username": "",
+      "tipousuario": "Alumno",
+      "email": "jo.jett@duocuc.cl",
+      "password": "1234565",
+      "isactive": true,
+      "carrera": "Mecanica"
+    }
+  ],
   "usuarios": [
     {
       "id": 1,
@@ -32,6 +73,20 @@
     {
       "id": 2,
       "usuario": "El.Surero",
+      "password": "maipu",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "usuario": "El.kozo",
+      "password": "maipu",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "usuario": "Ra.paz",
       "password": "maipu",
       "role": "usuario",
       "isactive": true
